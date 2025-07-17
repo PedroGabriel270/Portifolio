@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfólio Pedro Gabriel Borges Schneider</title>
+  <style>
+    body {
+      margin: 0;
+      background: linear-gradient(135deg, #2e003e, #5b0060, #8a007f);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #ffe6ff;
+      min-height: 100vh;
+      padding: 40px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      color: #ff33cc;
+      text-shadow: 0 0 10px #ff33cc, 0 0 20px #ff66d9;
+    }
+
+    header p {
+      font-size: 1.3rem;
+      color: #ff99e6;
+      margin-top: 8px;
+    }
+
+    section {
+      background: rgba(255, 182, 255, 0.1);
+      border-radius: 12px;
+      padding: 30px 25px;
+      margin-bottom: 40px;
+      width: 100%;
+      max-width: 700px;
+      box-shadow: 0 0 15px rgba(255, 51, 204, 0.3);
+      transition: box-shadow 0.3s ease;
+    }
+
+    section:hover {
+      box-shadow: 0 0 25px rgba(255, 51, 204, 0.6);
+    }
+
+    h2 {
+      color: #ff33cc;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #ff33cc;
+      padding-bottom: 8px;
+      font-weight: 700;
+    }
+
+    ul.skills-list {
+      list-style: none;
+      padding-left: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    ul.skills-list li {
+      background: #ff33cc;
+      color: #3a002e;
+      padding: 10px 15px;
+      border-radius: 30px;
+      font-weight: 600;
+      box-shadow: 0 0 8px #ff33cc;
+      transition: transform 0.2s ease;
+      cursor: default;
+    }
+
+    ul.skills-list li:hover {
+      transform: scale(1.1);
+    }
+
+    .project-description {
+      font-size: 1rem;
+      color: #ffb3e6;
+      line-height: 1.5;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      section {
+        padding: 20px 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Pedro Gabriel Borges Schneider</h1>
+    <p>Cursando Desenvolvimento de Sistemas - 1º Ano do Ensino Médio - Escola CEDUP PERFEITO MANOEL DE AGUIAR</p>
+  </header>
+
+  <section id="habilidades">
+    <h2>Minhas Habilidades</h2>
+    <ul class="skills-list">
+      <li>HTML5</li>
+      <li>Trabalho em Equipe</li>
+      <li>Comunicação</li>
+      <li>Prestativo</li>
+      <li>Edição</li>
+    </ul>
+  </section>
+
+  <section id="projeto">
+    <h2>Projeto em Grupo - "Anti-Alaga"</h2>
+    <p class="project-description">
+      Meu grupo e eu conquistamos o 3º lugar na Feira de Ciências da escola Cedup Perfeito Manoel de aguiar, com o projeto "Anti-Alaga". 
+      O objetivo é prevenir alagamentos utilizando uma grade dentro dos bueiros combinada com uma balança que mede o peso do lixo acumulado, 
+      transmitindo alertas em tempo real para a prefeitura agir rapidamente.
+    </p>
+  </section>
+     
+  <section id="Contatos">
+    <h2>Contato</h2>
+    <p class="project-description">
+      ➡︎ Instagram: @ppedroz <br>
+      ➡︎ Whatsapp: 47997443724<br>
+      ➡︎ Email: Pedrogabrielborges270@gmail.com
+    </p>
+  </section>
+
+</body>
+</html>
